@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resetando margens e padding para garantir um layout limpo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Poppins, sans-serif;
+    background-image: url('./resources/fundopuro.png'); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Container principal */
+#main-container {
+    text-align: center;
+    background: url('./resources/fundopuro.png'); /* Imagem de fundo */
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 3px 10px rgb(255, 255, 255); /* Sombra suave */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cabeçalho */
+#welcome-message {
+    font-size: 32px;
+    color: #fbfbfb; /* Cor roxa */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Botões */
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+#buttons button {
+    background-color: #23030E;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px; /* Ajuste do tamanho do botão */
+}
+
+#buttons button:hover {
+    background-color: #ffffff56;
+}
+
+/* Tabela de Shows */
+#shows-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo translúcido branco */
+    border-radius: 10px;
+    color: #333; /* Cor do texto na tabela */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve na tabela */
+}
+
+#shows-table caption {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#shows-table th, #shows-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#shows-table th {
+    background-color: #23030E;
+    color: white;
+}
+
+#shows-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#shows-table tr:hover {
+    background-color: #ddd;
+}
+
+td{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+button, #edit-btn, #delete-btn, #home-btn{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    #main-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    #welcome-message {
+        font-size: 28px;
+    }
+
+    #shows-table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #buttons button {
+        width: 100%; /* Botões em tela cheia em dispositivos móveis */
+        margin-top: 10px;
+    }
+}

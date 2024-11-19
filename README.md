@@ -1,4 +1,4 @@
-<h3><b>Projeto Beneficente - RevivaVoz</b></h3>
+<h3><b>Projeto Beneficente - <a href="https://revivavoz.site/index.php" target="_blank">RevivaVoz</a> </b></h3>
 <br>
 
 Projeto de um sistema web para promover e gerenciar o site de um
@@ -72,7 +72,6 @@ no sorteio.</li>
   <li>Uso de prepared statements como proteção contra SQL
   Injection</li>
 </ul>
-<br>
 <h4> 4. Tecnologias Utilizadas </h4>
 <ol>
 <li>Frontend: HTML, CSS e JavaScript</li>
@@ -82,3 +81,5 @@ dos usuários.</li>
 <li>Ferramenta de servidor : XAMPP, Apache, MySQL </li>
 <li>Hospedagem: Hostinger </li>
 </ol>
+<h4> 5. Links Úteis </h4>
+<p><strong>Site: </strong> <a>https://revivavoz.site/index.php</a></p>

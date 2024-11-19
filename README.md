@@ -82,4 +82,4 @@ dos usuários.</li>
 <li>Hospedagem: Hostinger </li>
 </ol>
 <h4> 5. Links Úteis </h4>
-<p><strong>Site: </strong> <a>https://revivavoz.site/index.php</a></p>
+<p><strong>Site: </strong> <a>https://revivavoz.site/index.php</a> - <a href="https://revivavoz.site/index.php" target="_blank">Revivavoz</a></p>
